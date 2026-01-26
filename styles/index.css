@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    line-height: 1.6;
+}
+
+header {
+    padding: 30px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #0d1117, #1f2937);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #58a6ff;
+}
+
+header h2 {
+    font-size: 1.4rem;
+    color: #9bbcf7;
+    font-weight: 400;
+}
+
+.section {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #58a6ff;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #161b22;
+    border-radius: 8px;
+    border: 1px solid #30363d;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #8b949e;
+    font-size: 0.9rem;
+}
+
+a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  margin-bottom: 30px;
+  color: #58a6ff;
+}
+
+.contact-card {
+  background: #161b22;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.contact-card a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
