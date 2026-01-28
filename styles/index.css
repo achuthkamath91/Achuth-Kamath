@@ -100,19 +100,21 @@ a:hover {
 
 .tech-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 25px;
   justify-items: center;
   align-items: center;
+  padding: 20px 0;
 }
 
 .tech-grid img {
-  width: 60px;
-  height: 60px;
-  transition: transform 0.2s ease;
+  width: 40px;
+  height: auto;
+  opacity: 0.9;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .tech-grid img:hover {
-  transform: scale(1.15);
+  transform: scale(1.2);
+  opacity: 1;
 }
-
