@@ -119,3 +119,16 @@ a:hover {
   transform: scale(1.2);
   opacity: 1;
 }
+
+.contact-card p i {
+  margin-right: 8px;
+  color: #555;
+  font-size: 20px;
+}
+.contact-card p a {
+  text-decoration: none;
+  color: #0077b5;
+}
+.contact-card p a:hover {
+  text-decoration: underline;
+}
