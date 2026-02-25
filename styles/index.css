@@ -9,7 +9,8 @@ body {
 header {
     padding: 30px 20px;
     text-align: center;
-    background: linear-gradient(135deg, #0d1117, #1f2937);
+    /* lighten gradient for better logo contrast */
+    background: linear-gradient(135deg, #161b22, #2a3540);
 }
 
 header h1 {
@@ -70,6 +71,7 @@ a:hover {
 .contact-section {
   text-align: center;
   margin-bottom: 40px;
+  max-width: 100%;
 }
 
 .section-title {
@@ -82,7 +84,7 @@ a:hover {
   padding: 30px;
   border-radius: 12px;
   border: 1px solid #30363d;
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 auto;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
   font-size: 1.1rem;
@@ -105,14 +107,16 @@ a:hover {
   justify-items: center;
   align-items: center;
   padding: 20px 0;
-  background: linear-gradient(135deg, #0d1117, #1f2937);
+  /* slightly lighter background for icon visibility */
+  background: linear-gradient(135deg, #161b22, #2a3540);
 }
 
 .tech-grid img {
   width: 40px;
   height: auto;
-  opacity: 0.9;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 1;
+  filter: brightness(1.15);
+  transition: transform 0.2s ease, opacity 0.2s ease, filter 0.2s ease;
 }
 
 .tech-grid img:hover {
@@ -131,4 +135,32 @@ a:hover {
 }
 .contact-card p a:hover {
   text-decoration: underline;
+}
+
+/* two‑column layout */
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.main-column {
+    flex: 1 1 60%;
+    min-width: 300px;
+}
+
+.sidebar {
+    flex: 1 1 300px;
+}
+
+@media (max-width: 800px) {
+    .content-container {
+        flex-direction: column;
+    }
+    .sidebar {
+        flex: 1 1 100%;
+        margin-top: 40px;
+    }
 }
