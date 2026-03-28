@@ -134,13 +134,17 @@
 
     </div> <!-- end main-column -->
     <aside class="sidebar">
-      
+
       <section class="section">
         <h3>LeetCode Stats</h3>
-        <img src="https://leetcard.jacoblin.cool/achuthKamath91?theme=dark&font=Roboto&ext=heatmap" alt="LeetCode Stats"
-          style="width:100%; max-width:600px; border-radius:8px; display:block; margin:0 auto;" />
+        <div class="leetcode-loader-container">
+          <div class="loader"></div>
+          <img src="https://leetcard.jacoblin.cool/achuthKamath91?theme=dark&font=Roboto&ext=heatmap" alt="LeetCode Stats"
+            style="width:100%; max-width:600px; border-radius:8px; display:block; margin:0 auto;" 
+            onload="document.querySelector('.loader').style.display='none'" />
+        </div>
       </section>
-      
+
       <section class="section" id="tech-stack">
         <h2>🧰 Tech Stack</h2>
         <div class="tech-grid">
@@ -167,26 +171,26 @@
   </div> <!-- end content-container -->
 
   <section class="section contact-section">
-        <h3 class="section-title">Contact</h3>
+    <h3 class="section-title">Contact</h3>
 
-        <div class="contact-card">
-          <p>
-            <i class="fa-solid fa-envelope"></i>
-            <a href="mailto:achuth.138208@gmail.com">Email</a>
-          </p>
+    <div class="contact-card">
+      <p>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:achuth.138208@gmail.com">Email</a>
+      </p>
 
-          <p>
-            <i class="fa-brands fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/akmmaktrix/">LinkedIn</a>
-          </p>
+      <p>
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/akmmaktrix/">LinkedIn</a>
+      </p>
 
-          <p>
-            <i class="fa-brands fa-github"></i>
-            <a href="https://github.com/achuthkamath91">GitHub</a>
-          </p>
+      <p>
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/achuthkamath91">GitHub</a>
+      </p>
 
-        </div>
-      </section>
+    </div>
+  </section>
 
   <footer>
     © 2026 Achuth Kamath M — Built with GitHub Pages
