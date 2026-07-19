@@ -15,8 +15,10 @@
   <link rel="icon" type="image/png" href="/assets/favicon.png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <title>Achuth Kamath M | Senior Software Engineer</title>
-
+  <meta name="description" content="Senior Software Engineer specializing in backend engineering, cloud architecture, distributed systems, and DevOps automation. View portfolio, projects, and tech stack." />
+  
   <link rel="stylesheet" href="styles/index.css" />
 </head>
 
@@ -26,108 +28,167 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <header>
+  <!-- Modern Ambient Background Glows -->
+  <div class="ambient-glow-1"></div>
+  <div class="ambient-glow-2"></div>
+  <div class="ambient-glow-3"></div>
+
+  <header id="main-header">
+    <div class="header-tag">Senior Portfolio Status: Production</div>
     <h1>Achuth Kamath M</h1>
-    <h2>Senior Software Engineer — Backend • Cloud • Distributed Systems • DevOps</h2>
+    <h2>Senior Software Engineer — Specialized in <span>Backend • Cloud • Distributed Systems • DevOps</span></h2>
+    <div class="contact-links">
+      <a href="mailto:achuth.138208@gmail.com" class="contact-btn primary" id="contact-email-btn">
+        <i class="fa-solid fa-envelope"></i> Email Me
+      </a>
+      <a href="https://www.linkedin.com/in/akmmaktrix/" target="_blank" rel="noopener" class="contact-btn secondary" id="contact-linkedin-btn">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://github.com/achuthkamath91" target="_blank" rel="noopener" class="contact-btn secondary" id="contact-github-btn">
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+    </div>
   </header>
 
-  <div class="content-container">
+  <main class="content-container">
     <div class="main-column">
 
-      <section class="section">
-        <h3>About Me</h3>
+      <section class="section" id="about-section">
+        <h3><i class="fa-solid fa-user"></i> About Me</h3>
         <p>
-          I’m a Senior Software Engineer with 7+ years of experience building and scaling cloud-native and on-prem
-          systems.
-          I specialize in backend engineering, distributed systems, AWS serverless technologies, and DevOps automation.
-          I’ve led end-to-end delivery of high-impact services, modernized legacy systems, and built CI/CD pipelines
-          using
-          GitHub Actions, ECS, and ECR.
+          I am a Senior Software Engineer with over 7 years of professional experience designing, building, and scaling high-performance backend systems and distributed cloud architectures. I believe in true service ownership—taking end-to-end responsibility for the design, deployment, maintenance, and long-term stability of the systems my team builds.
+        </p>
+        <p style="margin-top: 15px;">
+          I specialize in AWS serverless and containerized environments, utilizing Lambda, ECS, SQS, SNS, and databases like DynamoDB, DocumentDB, and OpenSearch. I am also an early adopter of AI-assisted engineering tools like Claude Code CLI and Codex, integrating them seamlessly into my IDE workflow to build faster and with higher precision.
         </p>
       </section>
 
-      <section class="section">
-        <h3>Skills</h3>
+      <section class="section" id="skills-section">
+        <h3><i class="fa-solid fa-gears"></i> Core Competencies</h3>
         <div class="skills-grid">
-          <div>
-            <strong>Languages</strong><br>
-            Java, C#, JavaScript, SQL, NoSQL
+          <div class="skills-category" id="skills-languages">
+            <strong>Languages</strong>
+            <div class="skills-list">
+              <span class="skill-badge">Java</span>
+              <span class="skill-badge">C#</span>
+              <span class="skill-badge">JavaScript</span>
+              <span class="skill-badge">SQL</span>
+              <span class="skill-badge">NoSQL</span>
+              <span class="skill-badge">C++</span>
+              <span class="skill-badge">PHP</span>
+            </div>
           </div>
-          <div>
-            <strong>Cloud & DevOps</strong><br>
-            AWS (Lambda, SQS, SNS, EKS, CloudFormation), Docker, ECS, ECR, GitHub Actions
+          <div class="skills-category" id="skills-cloud">
+            <strong>Cloud & DevOps</strong>
+            <div class="skills-list">
+              <span class="skill-badge">AWS (Lambda, SQS, SNS, ECS, EKS)</span>
+              <span class="skill-badge">Docker</span>
+              <span class="skill-badge">Kubernetes</span>
+              <span class="skill-badge">Terraform & CloudFormation</span>
+              <span class="skill-badge">GitHub Actions</span>
+              <span class="skill-badge">AWS CloudWatch Logs</span>
+            </div>
           </div>
-          <div>
-            <strong>Backend Engineering</strong><br>
-            Microservices, Distributed Systems, API Design, Performance Optimization
+          <div class="skills-category" id="skills-backend">
+            <strong>Backend & AI Tooling</strong>
+            <div class="skills-list">
+              <span class="skill-badge">Microservices</span>
+              <span class="skill-badge">Distributed Systems</span>
+              <span class="skill-badge">API Design</span>
+              <span class="skill-badge">Claude Code CLI & Codex</span>
+              <span class="skill-badge">Performance Optimization</span>
+            </div>
           </div>
-          <div>
-            <strong>Databases</strong><br>
-            DynamoDB, DocumentDB, Aurora, SQL Server
-          </div>
-          <div>
-            <strong>Frontend</strong><br>
-            React, custom UI components
-          </div>
-          <div>
-            <strong>Design Patterns</strong><br>
-            Singleton, Factory, Builder, Strategy, Observer, Adapter, Decorator
+          <div class="skills-category" id="skills-databases">
+            <strong>Databases & Search</strong>
+            <div class="skills-list">
+              <span class="skill-badge">DynamoDB</span>
+              <span class="skill-badge">DocumentDB</span>
+              <span class="skill-badge">OpenSearch</span>
+              <span class="skill-badge">Aurora</span>
+              <span class="skill-badge">SQL Server</span>
+            </div>
           </div>
         </div>
       </section>
 
+      <section class="section" id="projects-section">
+        <h3><i class="fa-solid fa-code-branch"></i> Highlighted Projects</h3>
 
-      <section class="section">
-        <h3>Projects</h3>
-
-        <div class="project">
-          <h4>Typography Controller (NPM Package)</h4>
-          <img src="https://raw.githubusercontent.com/achuthkamath91/Typography-Controller/main/image.png"
-            alt="Typography Controller Demo"
-            style="width:100%; max-width:600px; border-radius:8px; display:block; margin:0 auto;" />
-          <p>
-            A framework-agnostic Web Component providing a beautiful typography control panel with sliders for font
-            size, letter spacing, word spacing, line height, contrast, and font family. Published on NPM for easy
-            integration into web projects. <a href="https://github.com/achuthkamath91/Typography-Controller"
-              target="_blank">View on GitHub</a>
-          </p>
-        </div>
-
-        <div class="project">
-          <h4>Google stock predictor</h4>
-          <img src="https://raw.githubusercontent.com/achuthkamath91/Stock-Predictor/main/image.png"
-            alt="Google stock predictor Demo"
-            style="width:100%; max-width:600px; border-radius:8px; display:block; margin:0 auto;" />
-          <p>
-            A machine learning model to predict Google stock prices using historical data and technical indicators. <a
-              href="https://github.com/achuthkamath91/Stock-Predictor" target="_blank">View on GitHub</a>
-          </p>
-        </div>
-
-        <div class="project">
+        <div class="project-category-title">Enterprise & Cloud-Native Platforms</div>
+        
+        <div class="project" id="project-cloud-microservices">
           <h4>Cloud-Native Microservice Platform</h4>
           <p>
-            Designed and deployed microservices using AWS Lambda, SQS, SNS. Improved throughput and reduced latency by
-            40%.
-            Built CI/CD pipelines using GitHub Actions → ECS/ECR. Implemented distributed tracing and observability.
+            Architected, deployed, and maintained highly scalable event-driven microservices using AWS Lambda, ECS, SQS, and SNS. Took complete service ownership of the platform, implementing robust observability pipelines with CloudWatch logs and OpenSearch to track system health. Reduced system latency by 40% through query performance optimization and queue concurrency tuning. Set up GitOps pipelines via GitHub Actions for automated deployment to ECS/ECR.
           </p>
+          <div class="project-tags">
+            <span class="project-tag">AWS ECS & Lambda</span>
+            <span class="project-tag">Amazon SQS/SNS</span>
+            <span class="project-tag">OpenSearch</span>
+            <span class="project-tag">CloudWatch Logs</span>
+            <span class="project-tag">GitHub Actions</span>
+          </div>
         </div>
 
-        <div class="project">
-          <h4>On-Prem Legacy Modernization</h4>
+        <div class="project" id="project-legacy-modernization">
+          <h4>On-Premise Monolith Modernization</h4>
           <p>
-            Refactored monolithic services into modular components. Improved reliability and reduced production
-            incidents.
-            Led cross-team collaboration and rollout.
+            Led the refactoring of a critical legacy monolithic system into modern, loosely coupled modular services. Boosted overall system availability and reduced production incidents. Orchestrated cross-team alignments and managed phased rollouts with zero operational downtime.
           </p>
+          <div class="project-tags">
+            <span class="project-tag">Java</span>
+            <span class="project-tag">API Refactoring</span>
+            <span class="project-tag">Distributed Systems</span>
+            <span class="project-tag">System Migration</span>
+          </div>
         </div>
 
-        <div class="project">
-          <h4>Internal React Tooling</h4>
+        <div class="project-category-title">Open Source Tools & Libraries</div>
+
+        <div class="project" id="project-typography-controller">
+          <h4>Typography Controller (NPM Package)</h4>
+          <img src="https://raw.githubusercontent.com/achuthkamath91/Typography-Controller/main/image.png"
+            alt="Typography Controller Demo Screen"
+            style="width:100%; max-width:600px; border-radius:8px; display:block; margin:10px auto 20px;" />
           <p>
-            Built custom UI tools and contributed to React features. Improved internal workflows and integrated backend
-            APIs.
+            A lightweight, framework-agnostic Web Component allowing developers to embed an interactive typography tuning dashboard. Built with custom elements and shadow DOM for total encapsulation. Features sliders for font sizing, letter/word spacing, contrast levels, line height, and font pairings.
           </p>
+          <div class="project-tags">
+            <span class="project-tag">JavaScript (ES6+)</span>
+            <span class="project-tag">Web Components</span>
+            <span class="project-tag">NPM Package</span>
+            <span class="project-tag">Vite</span>
+            <span class="project-tag">React Wrapper</span>
+          </div>
+          <div style="margin-top: 15px;">
+            <a class="Link" href="https://github.com/achuthkamath91/Typography-Controller" target="_blank" rel="noopener" id="link-typography-github">
+              <i class="fa-brands fa-github"></i> View Repository
+            </a>
+          </div>
+        </div>
+
+        <div class="project-category-title">Machine Learning & Simulation</div>
+
+        <div class="project" id="project-stock-predictor">
+          <h4>Google Stock Predictor</h4>
+          <img src="https://raw.githubusercontent.com/achuthkamath91/Stock-Predictor/main/image.png"
+            alt="Google Stock Predictor Visual Graphs"
+            style="width:100%; max-width:600px; border-radius:8px; display:block; margin:10px auto 20px;" />
+          <p>
+            A machine learning application utilizing historical price feeds and technical indicators to forecast Google stock price movements. Implemented feature engineering, model training, and performance evaluation metrics.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Machine Learning</span>
+            <span class="project-tag">Pandas</span>
+            <span class="project-tag">Scikit-Learn</span>
+          </div>
+          <div style="margin-top: 15px;">
+            <a class="Link" href="https://github.com/achuthkamath91/Stock-Predictor" target="_blank" rel="noopener" id="link-stock-github">
+              <i class="fa-brands fa-github"></i> View Repository
+            </a>
+          </div>
         </div>
 
       </section>
@@ -135,65 +196,61 @@
     </div> <!-- end main-column -->
     <aside class="sidebar">
 
-      <section class="section">
-        <h3>LeetCode Stats</h3>
+      <section class="section" id="leetcode-widget">
+        <h3><i class="fa-solid fa-code"></i> LeetCode Stats</h3>
         <div class="leetcode-loader-container">
           <div class="loader"></div>
-          <img src="https://leetcard.jacoblin.cool/achuthKamath91?theme=dark&font=Roboto&ext=heatmap" alt="LeetCode Stats"
-            style="width:100%; max-width:600px; border-radius:8px; display:block; margin:0 auto;" 
+          <img src="https://leetcard.jacoblin.cool/achuthKamath91?theme=dark&font=Roboto&ext=heatmap" alt="Achuth's LeetCode Stats Card"
             onload="document.querySelector('.loader').style.display='none'" />
         </div>
       </section>
 
-      <section class="section" id="tech-stack">
-        <h2>🧰 Tech Stack</h2>
+      <section class="section" id="tech-stack-widget">
+        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tech Stack</h3>
         <div class="tech-grid">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            alt="JavaScript" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
-            alt="Kubernetes" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
-            alt="Terraform" />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-            alt="AWS" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C# Logo" title="C#" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo" title="Java" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo" title="JavaScript" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo" title="React" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Logo" title="HTML5" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Logo" title="CSS3" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" title="MongoDB" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker Logo" title="Docker" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes Logo" title="Kubernetes" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform Logo" title="Terraform" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS Logo" title="AWS" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo" title="GitHub" />
         </div>
       </section>
+      
     </aside>
-  </div> <!-- end content-container -->
+  </main>
 
-  <section class="section contact-section">
-    <h3 class="section-title">Contact</h3>
-
-    <div class="contact-card">
-      <p>
-        <i class="fa-solid fa-envelope"></i>
-        <a href="mailto:achuth.138208@gmail.com">Email</a>
-      </p>
-
-      <p>
-        <i class="fa-brands fa-linkedin"></i>
-        <a href="https://www.linkedin.com/in/akmmaktrix/">LinkedIn</a>
-      </p>
-
-      <p>
-        <i class="fa-brands fa-github"></i>
-        <a href="https://github.com/achuthkamath91">GitHub</a>
-      </p>
-
+  <section class="section" style="max-width: 1200px; margin: 0 auto;" id="footer-contact">
+    <h3><i class="fa-solid fa-address-book"></i> Connect With Me</h3>
+    <div class="contact-section-footer">
+      <div class="contact-info-grid">
+        <div class="contact-card-sub" id="footer-email-card">
+          <i class="fa-solid fa-envelope"></i>
+          <strong>Email</strong>
+          <a class="Link" href="mailto:achuth.138208@gmail.com">achuth.138208@gmail.com</a>
+        </div>
+        <div class="contact-card-sub" id="footer-linkedin-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <strong>LinkedIn</strong>
+          <a class="Link" href="https://www.linkedin.com/in/akmmaktrix/" target="_blank" rel="noopener">linkedin.com/in/akmmaktrix</a>
+        </div>
+        <div class="contact-card-sub" id="footer-github-card">
+          <i class="fa-brands fa-github"></i>
+          <strong>GitHub</strong>
+          <a class="Link" href="https://github.com/achuthkamath91" target="_blank" rel="noopener">github.com/achuthkamath91</a>
+        </div>
+      </div>
     </div>
   </section>
 
   <footer>
-    © 2026 Achuth Kamath M — Built with GitHub Pages
+    <p>&copy; 2026 Achuth Kamath M. All rights reserved. | Built with GitHub Pages</p>
   </footer>
 
 </body>
