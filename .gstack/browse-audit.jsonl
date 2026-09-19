@@ -1,7 +1,0 @@
-{"ts":"2026-09-19T14:40:45.448Z","cmd":"goto","args":"https://academy.claude.com/verify/8477a55dee200e3054e618da8c429aae","origin":"https://academy.claude.com/verify/8477a55dee200e3054e618da8c429aae","durationMs":3197,"status":"ok","hasCookies":false,"mode":"launched"}
-{"ts":"2026-09-19T14:40:45.682Z","cmd":"text","args":"","origin":"https://academy.claude.com/verify/8477a55dee200e3054e618da8c429aae","durationMs":131,"status":"ok","hasCookies":false,"mode":"launched"}
-{"ts":"2026-09-19T14:40:49.439Z","cmd":"wait","args":"--networkidle","origin":"https://academy.claude.com/verify/8477a55dee200e3054e618da8c429aae","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
-{"ts":"2026-09-19T14:40:49.534Z","cmd":"text","args":"","origin":"https://academy.claude.com/verify/8477a55dee200e3054e618da8c429aae","durationMs":2,"status":"ok","hasCookies":false,"mode":"launched"}
-{"ts":"2026-09-19T14:40:53.870Z","cmd":"goto","args":"https://academy.claude.com/verify/9abe8d65ea32243f3fbd208ddb22b0a8","origin":"https://academy.claude.com/verify/9abe8d65ea32243f3fbd208ddb22b0a8","durationMs":116,"status":"ok","hasCookies":false,"mode":"launched"}
-{"ts":"2026-09-19T14:40:55.203Z","cmd":"wait","args":"--networkidle","origin":"https://academy.claude.com/verify/9abe8d65ea32243f3fbd208ddb22b0a8","durationMs":1231,"status":"ok","hasCookies":false,"mode":"launched"}
-{"ts":"2026-09-19T14:40:55.298Z","cmd":"text","args":"","origin":"https://academy.claude.com/verify/9abe8d65ea32243f3fbd208ddb22b0a8","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}

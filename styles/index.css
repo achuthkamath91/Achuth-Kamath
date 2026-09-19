@@ -471,11 +471,11 @@ header h2 span {
     margin-top: 6px;
 }
 
-/* Certifications Grid */
+/* Certifications Grid (sidebar) */
 .certifications-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 16px;
+    grid-template-columns: 1fr;
+    gap: 14px;
 }
 
 .certification-card {
@@ -485,7 +485,7 @@ header h2 span {
     background: var(--bg-card-inner);
     border: 1px solid var(--border-color);
     border-radius: 14px;
-    padding: 18px;
+    padding: 16px;
     transition: all var(--transition-normal);
 }
 
@@ -495,9 +495,10 @@ header h2 span {
     transform: translateY(-2px);
 }
 
-.certification-card i.cert-icon {
-    font-size: 1.3rem;
-    color: var(--color-primary);
+.certification-card .cert-badge {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
     margin-top: 2px;
 }
 
