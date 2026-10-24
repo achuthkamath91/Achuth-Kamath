@@ -1,6 +1,6 @@
 # Achuth Kamath - Portfolio
 
-**Live site:** https://achuthkamath-mak.pages.dev
+**Live site:** https://achuth.kamath-m.workers.dev
 
 ## About
 
@@ -42,9 +42,9 @@ Then visit `http://localhost:8000`.
 
 ## Deployment
 
-Hosted on Cloudflare Pages and connected to this repository. Pushing to `main` publishes the `public/` folder.
+Hosted on Cloudflare Workers (static assets) and connected to this repository. Pushing to `main` publishes the `public/` folder.
 
-Cloudflare Pages settings: production branch `main`, no build command, build output directory `public`.
+Deploy command: `npx wrangler deploy --assets=public --name achuth --compatibility-date 2026-10-19`.
 
 ## Contact
 
