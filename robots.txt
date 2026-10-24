@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://achuth-kamath.achuthkamath.workers.dev/sitemap.xml
