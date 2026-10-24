@@ -25,6 +25,7 @@ A personal portfolio site for a Senior Software Engineer working in backend engi
 │   ├── robots.txt
 │   ├── sitemap.xml
 │   └── _headers          # Security headers
+├── index.html            # Redirects the old GitHub Pages address to the live site (not published by Cloudflare)
 └── README.md             # This file (not published)
 ```
 
