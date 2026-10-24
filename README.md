@@ -45,7 +45,7 @@ Then visit `http://localhost:8000`.
 
 Hosted on Cloudflare Workers (static assets) and connected to this repository. Pushing to `main` publishes the `public/` folder.
 
-Deploy command: `npx wrangler deploy --assets=public --name achuth --compatibility-date 2026-10-19`.
+`wrangler.jsonc` sets the Worker name (`achuth`) and publishes only the `public/` folder. Deploy command: `npx wrangler deploy`.
 
 ## Contact
 
